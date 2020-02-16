@@ -18,8 +18,10 @@ For this test, we’d like you to develop a basic React app using TypeScript.
     * tsconfig.json
 * [x] Configuring Webpack for Typescript
 * [x] Testing the configuration
-* [ ] Adding React
+* [x] Adding React
     * yarn add react react-dom @types/react @types/react-dom
+* [x] Adding HTML
+    * yarn add html-webpack-plugin --dev 
 * [ ] Setup eslint
 * [ ] Allow User To Add names from a list
 * [ ] Allow User To Remove names from a list

@@ -11,8 +11,8 @@ For this test, we’d like you to develop a basic React app using TypeScript.
 * [x] Configuring Webpack
 * [x] Adding Typescript
 * [x] Adding a Typescript configuration file
-* [ ] Configuring Webpack for Typescript
-* [ ] Testing the configuration
+* [x] Configuring Webpack for Typescript
+* [x] Testing the configuration
 * [ ] Setup eslint
 * [ ] Allow User To Add names from a list
 * [ ] Allow User To Remove names from a list

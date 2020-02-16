@@ -8,11 +8,18 @@ For this test, we’d like you to develop a basic React app using TypeScript.
 ------
 
 * [x] Installing Webpack 4
+    * yarn init –y 
+    * yarn add webpack webpack-cli --dev 
 * [x] Configuring Webpack
+    * webpack.config.js
 * [x] Adding Typescript
+    * yarn add typescript awesome-typescript-loader --dev
 * [x] Adding a Typescript configuration file
+    * tsconfig.json
 * [x] Configuring Webpack for Typescript
 * [x] Testing the configuration
+* [ ] Adding React
+    * yarn add react react-dom @types/react @types/react-dom
 * [ ] Setup eslint
 * [ ] Allow User To Add names from a list
 * [ ] Allow User To Remove names from a list

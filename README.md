@@ -21,7 +21,9 @@ For this test, we’d like you to develop a basic React app using TypeScript.
 * [x] Adding React
     * yarn add react react-dom @types/react @types/react-dom
 * [x] Adding HTML
-    * yarn add html-webpack-plugin --dev 
+    * yarn add html-webpack-plugin --dev
+* [x] Setting up a development server
+    * yarn add webpack-dev-server --dev  
 * [ ] Setup eslint
 * [ ] Allow User To Add names from a list
 * [ ] Allow User To Remove names from a list

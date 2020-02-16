@@ -5,11 +5,13 @@
   "repository": "https://github.com/ELBEQQAL94/inspired-mobile-react-app.git",
   "author": "ELBEQQAL YOUSSEF",
   "devDependencies": {
+    "awesome-typescript-loader": "^5.2.1",
+    "typescript": "^3.7.5",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11"
   },
-  "scripts": { 
-    "start": "webpack --mode development", 
-    "build": "webpack --mode production" 
+  "scripts": {
+    "start": "webpack --mode development",
+    "build": "webpack --mode production"
   }
 }

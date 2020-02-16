@@ -9,6 +9,8 @@ For this test, we’d like you to develop a basic React app using TypeScript.
 
 * [x] Installing Webpack 4
 * [x] Configuring Webpack
+* [ ] Adding Typescript
+* [ ] Adding a Typescript configuration file
 * [ ] Setup eslint
 * [ ] Allow User To Add names from a list
 * [ ] Allow User To Remove names from a list

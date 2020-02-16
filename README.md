@@ -7,7 +7,7 @@ For this test, we’d like you to develop a basic React app using TypeScript.
 ### TODO Lists:
 ------
 
-* [ ] Installing Webpack
+* [x] Installing Webpack 4
 * [ ] Setup eslint
 * [ ] Allow User To Add names from a list
 * [ ] Allow User To Remove names from a list

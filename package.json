@@ -1,0 +1,15 @@
+{
+  "name": "inspired-mobile-react-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ELBEQQAL94/inspired-mobile-react-app.git",
+  "author": "ELBEQQAL YOUSSEF",
+  "devDependencies": {
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": { 
+    "start": "webpack --mode development", 
+    "build": "webpack --mode production" 
+  }
+}

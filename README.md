@@ -36,7 +36,8 @@ For this test, we’d like you to develop a basic React app using TypeScript.
     * [ ] Includes some form of state management
     * [ ] Compiled code should run on Internet Explorer 11+
     * [ ] Should utilise Webpack
-
+* [ ] Test react components
+* [ ] check for unused dependencies
 
 ### Submition
 -------

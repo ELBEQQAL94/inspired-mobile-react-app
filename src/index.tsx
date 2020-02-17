@@ -1,9 +1,9 @@
-import * as React from "react";
-import * as ReactDOM from "react-dom";
+import * as React from 'react';
+import * as ReactDOM from 'react-dom';
 
-import Message from "./components/Message";
+import App from './App';
 
 ReactDOM.render(
-    <Message from='Max' body='Hi !' />,
-    document.getElementById("root")
+  <App />,
+  document.getElementById('root'),
 );

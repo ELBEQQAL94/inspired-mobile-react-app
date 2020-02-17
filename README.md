@@ -24,7 +24,8 @@ For this test, we’d like you to develop a basic React app using TypeScript.
     * yarn add html-webpack-plugin --dev
 * [x] Setting up a development server
     * yarn add webpack-dev-server --dev  
-* [ ] Setup eslint
+* [x] Setup eslint
+* [x] setup rect-router-dom 
 * [ ] Allow User To Add names from a list
 * [ ] Allow User To Remove names from a list
 * [ ] Add Button To Randomly Pick A name from a list
@@ -47,6 +48,8 @@ For this test, we’d like you to develop a basic React app using TypeScript.
 
 ### Deployment
 ------
+
+* [ ] Add index to public folder for handle router by netlify
 
 ### Screen Shots
 ------

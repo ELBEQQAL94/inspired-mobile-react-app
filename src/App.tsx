@@ -1,5 +1,6 @@
 import * as React from 'react';
+import Routers from './Routers';
 
-const App: React.FC = () => (<h1>Hello Rectjs + Typescript!</h1>);
+const App: React.FC = () => <Routers />;
 
 export default App;

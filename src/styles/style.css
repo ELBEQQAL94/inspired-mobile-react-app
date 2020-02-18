@@ -1,4 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tomorrow&display=swap');
 body {
     background: black;
-    color: #ffffff
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* LIST */
+.list {
+    width: 100%;
+    margin: 4vmin 0;
+    padding: 4vmin 0;
+}
+
+.list h1 {
+    font-size: 7vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Tomorrow', sans-serif;
+    text-transform: uppercase;
+}
+
+.names {
+    width: 100%;
+    text-align: center
 }

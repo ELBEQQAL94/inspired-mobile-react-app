@@ -27,6 +27,8 @@ For this test, we’d like you to develop a basic React app using TypeScript.
 * [x] Setup rect-router-dom 
 * [x] Add CSS To webpack.config.js
     * css-loader style-loader
+* [ ] Implement The Store
+* [ ] Implement The Actions
 * [ ] Create List Of Names
 * [ ] Allow User To Add Names From A List
 * [ ] Allow User To Remove Names From A List

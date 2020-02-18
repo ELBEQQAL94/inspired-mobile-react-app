@@ -25,10 +25,7 @@ For this test, we’d like you to develop a basic React app using TypeScript.
     * yarn add webpack-dev-server --dev  
 * [x] Setup Eslint
 * [x] Setup rect-router-dom 
-* [ ] Setup easy-peasy For State Managment
-* [ ] GET Names Using Open API's
-* [ ] POST Names Using Open API's
-* [ ] DELETE Names Using Open API's
+* [ ] Create List Of Names
 * [ ] Allow User To Add Names From A List
 * [ ] Allow User To Remove Names From A List
 * [ ] Add Button To Randomly Pick A Name From A List

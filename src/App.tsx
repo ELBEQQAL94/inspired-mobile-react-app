@@ -1,6 +1,7 @@
 import * as React from 'react';
-import Routers from './Routers';
+import List from './components/List';
+import './styles/style.css';
 
-const App: React.FC = () => <Routers />;
+const App: React.FC = () => <List />;
 
 export default App;

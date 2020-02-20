@@ -4,7 +4,7 @@ import { useStoreActions } from '../hooks';
 const Name: React.FC<Entry> = ({entry}) => {
   const removeEntry = useStoreActions((state) => state.names.removeEntry);
   return (
-    <div className="name">
+    <div className="name" key={entry.id}>
       <h2>{entry.name}</h2>
         <svg
           onClick={() => removeEntry(entry.id)}

@@ -8,6 +8,11 @@ const ListNamesStore: ListNamesModel = {
   }),
   removeEntry: action((state, payload) => {
     state.entries.splice(state.entries.findIndex(entry => entry.id === payload), 1)
+  }),
+  randomEntry: action((state, payload) => {
+    // get random index
+    // filter entries base on random index
+    // return new entries
   })
 };
 

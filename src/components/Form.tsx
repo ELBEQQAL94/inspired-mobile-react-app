@@ -10,15 +10,16 @@ const Form: React.FC = () => {
     validationSchema: ListNamesEntrySchema,
   });
   const addEntry = useStoreActions((state) => state.names.addEntry);
-
+  let entries:ListNamesEntry[] = localStorage.getItem('Entry') ? JSON.parse(localStorage.getItem('Entry')) : [];
+  localStorage.setItem('Entry', JSON.stringify(entries))
   const onSubmit = handleSubmit(name => {
     const data = {
       id: uuidv1(),
       ...name,
     };
-
+    entries.push(data);
+    localStorage.setItem('Entry', JSON.stringify(entries));
     addEntry(data);
-
     reset();
 
   });

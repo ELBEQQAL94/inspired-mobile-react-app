@@ -5,4 +5,5 @@ export default interface ListNamesModel {
   entries: ListNamesEntry[];
   addEntry:  Action<ListNamesModel, ListNamesEntry>,
   removeEntry: Action<ListNamesModel, string>,
+  randomEntry: Action<ListNamesModel, ListNamesEntry>,
 }

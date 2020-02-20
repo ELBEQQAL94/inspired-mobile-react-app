@@ -35,13 +35,14 @@ For this test, we’d like you to develop a basic React app using TypeScript.
 * [x] Create List Of Names
 * [x] Allow User To Add Names From A List
 * [x] Allow User To Remove Names From A List
-* [ ] Add Button To Randomly Pick A Name From A List (popup)
+* [ ] Add Button To Randomly Pick A Name From A List 
 * [ ] The Same Name Should Not Be Picked Twice In A Row
 * [ ] The Name Picked Should Be Displayed In An Easy To Read Way For The User.
-* [ ] Save Data In LocalStorage
-* [ ] It Should Also Fit The Following Criteria:
-    * [ ] Must Compile Without Errors
-    * [ ] Includes Some Form Of State Management
+* [x] Save Data In LocalStorage
+* [ ] Remove Data From LocalStorage
+* [x] It Should Also Fit The Following Criteria:
+    * [x] Must Compile Without Errors
+    * [x] Includes Some Form Of State Management
     * [ ] Compiled Code Should Run On Internet Explorer 11+
     * [x] Should Utilise Webpack
 * [ ] Test React Components
@@ -49,6 +50,7 @@ For this test, we’d like you to develop a basic React app using TypeScript.
 * [ ] Add semi colon
 * [ ] Check code again
 * [ ] Check console errors
+* [ ] Create Footer
 
 ### The Technologies I Used
 -------

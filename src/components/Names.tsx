@@ -10,8 +10,8 @@ const List: React.FC = () => {
   return (
     <div className="container">
       <div className="names">
-        {entries.map(entry => (
-          <Name name={entry.name} key={entry.id} />
+        {entries.map((entry) => (
+          <Name entry={entry} />
         ))}
       </div>
     </div>

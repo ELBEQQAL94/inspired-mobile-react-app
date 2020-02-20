@@ -2,12 +2,12 @@ import ListNamesModel from '../interfaces/ListNamesModel';
 import { action } from 'easy-peasy';
 
 const ListNamesStore: ListNamesModel = {
-  entries: [{
-    name: 'youssef ELBEQQAL',
-    id: '1',
-  }], // initial store
+  entries: [], // initial store
   addEntry: action((state, payload) => {
     state.entries.unshift(payload);
+  }),
+  removeEntry: action((state, payload) => {
+    state.entries.splice(state.entries.findIndex(entry => entry.id === payload), 1)
   })
 };
 

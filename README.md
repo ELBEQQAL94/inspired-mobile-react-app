@@ -30,11 +30,11 @@ For this test, we’d like you to develop a basic React app using TypeScript.
 * [x] Implement The Store
 * [x] Add Current Names To The Store
 * [x] Display Names On UI
-* [ ] Implement The Actions
-* GET current names
-* [ ] Create List Of Names
-* [ ] Allow User To Add Names From A List
-* [ ] Allow User To Remove Names From A List
+* [x] Implement The Actions
+    * GET current names
+* [x] Create List Of Names
+* [x] Allow User To Add Names From A List
+* [x] Allow User To Remove Names From A List
 * [ ] Add Button To Randomly Pick A Name From A List (popup)
 * [ ] The Same Name Should Not Be Picked Twice In A Row
 * [ ] The Name Picked Should Be Displayed In An Easy To Read Way For The User.

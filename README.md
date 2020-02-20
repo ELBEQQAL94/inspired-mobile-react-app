@@ -27,15 +27,18 @@ For this test, we’d like you to develop a basic React app using TypeScript.
 * [x] Setup rect-router-dom 
 * [x] Add CSS To webpack.config.js
     * css-loader style-loader
-* [ ] Implement The Store
+* [x] Implement The Store
+* [x] Add Current Names To The Store
+* [x] Display Names On UI
 * [ ] Implement The Actions
+* GET current names
 * [ ] Create List Of Names
 * [ ] Allow User To Add Names From A List
 * [ ] Allow User To Remove Names From A List
-* [ ] Add Button To Randomly Pick A Name From A List
+* [ ] Add Button To Randomly Pick A Name From A List (popup)
 * [ ] The Same Name Should Not Be Picked Twice In A Row
 * [ ] The Name Picked Should Be Displayed In An Easy To Read Way For The User.
-
+* [ ] Save Data In LocalStorage
 * [ ] It Should Also Fit The Following Criteria:
     * [ ] Must Compile Without Errors
     * [ ] Includes Some Form Of State Management
@@ -43,6 +46,9 @@ For this test, we’d like you to develop a basic React app using TypeScript.
     * [x] Should Utilise Webpack
 * [ ] Test React Components
 * [ ] Check For Unused Dependencies
+* [ ] Add semi colon
+* [ ] Check code again
+* [ ] Check console errors
 
 ### The Technologies I Used
 -------

@@ -1,29 +1,129 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Tomorrow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lacquer&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
 body {
+    padding: 0;
+    margin: 0;
     background: black;
     color: #ffffff;
     font-family: 'Roboto', sans-serif;
 }
 
-/* LIST */
-.list {
-    width: 100%;
-    margin: 4vmin 0;
-    padding: 4vmin 0;
+/* CONTAINER */
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 94%;
+  max-width: 1100px;
 }
 
-.list h1 {
-    font-size: 7vmin;
+/* HEADER */
+header {
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    justify-content: space-between;    
+    padding: 3vmin ;
+}
+
+.brand {
     font-family: 'Tomorrow', sans-serif;
     text-transform: uppercase;
+    font-size: 4vmin;
+    color: yellow;
+    -webkit-text-fill-color: white; 
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: yellow;
+    padding: 1vmin;
 }
 
-.names {
+/* ADD NAME */
+
+.add_name {
+    width: 80%;
+    padding: 1vmin 0;
+    text-align: center;
+    display: flex;
+}
+
+form {
     width: 100%;
-    text-align: center
+    display: flex;
+    justify-content: stretch;
+}
+
+form .input_group {
+    width: 50%
+}
+
+form input {
+    width: 100%;
+    border: 1px solid yellow;
+    font-size: 2.5vmin;
+    color: #ffffff;
+    height: 40px;
+    background: #0c0b0be3;
+    padding: 7px;
+    transition: all .5 linear;
+}
+
+form input:focus {
+    box-shadow: 1px 1px 1px 1px rgb(173, 173, 30);
+}
+
+form button {
+    flex: 1;
+    border: #ffffff;
+    background: yellow;
+    font-size: 2.5vmin;
+    padding: 0 4vmin;
+    cursor: pointer;
+    transition: all .5s linear;
+    color: black;
+    height: 39px;
+    margin-left: 5px;
+    outline: none;
+    width: 100%
+}
+
+form .pick_random_name_button {
+    background: rgba(31, 116, 116, 0.787);
+    color: #ffffff
+}
+
+form button:hover {
+    background: rgb(207, 207, 80);
+}
+
+/* NAMES */
+.names {
+    color: #ffffff;
+}
+
+.name {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Lacquer', sans-serif;
+    padding: 4vmin;
+    margin: 5vmin 0;
+    border: 1px solid yellow;
+    border-radius: 20px;
+}
+
+.name svg {
+    cursor: pointer;
+    transition: all .5s linear
+}
+
+.name svg:hover {
+    stroke: red
+}
+
+.error {
+    color: red;
+    font-size: 15px
 }

@@ -5,19 +5,17 @@ import { useStoreState } from '../hooks';
 const List: React.FC = () => {
   const entries = useStoreState(state => state.names.entries);
 
-  return (
-    <section className="list">
-      <h1>List Of Names</h1>
-      <div className="names">
+  console.log(entries);
 
-      {
-        entries.map((entry) => (
+  return (
+    <div className="container">
+      <div className="names">
+        {entries.map(entry => (
           <Name name={entry.name} key={entry.id} />
-        ))
-      }
+        ))}
       </div>
-    </section>
+    </div>
   );
-}
+};
 
 export default List;

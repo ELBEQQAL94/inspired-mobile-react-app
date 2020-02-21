@@ -1,4 +1,5 @@
 import * as React from 'react';
+import { useStoreState } from '../hooks';
 import { useForm } from 'react-hook-form';
 import ListNamesEntry from '../interfaces/ListNamesEntry';
 import uuidv1 from 'uuid/v1';
@@ -9,16 +10,16 @@ const Form: React.FC = () => {
   const { register, handleSubmit, errors, reset } = useForm<ListNamesEntry>({
     validationSchema: ListNamesEntrySchema,
   });
+  const entries = useStoreState(state => state.names.entries);
+  const payload = Math.floor(Math.random()*entries.length)
+  // actions
   const addEntry = useStoreActions((state) => state.names.addEntry);
-  let entries:ListNamesEntry[] = localStorage.getItem('Entry') ? JSON.parse(localStorage.getItem('Entry')) : [];
-  localStorage.setItem('Entry', JSON.stringify(entries))
+  const randomEntry = useStoreActions((state) => state.names.randomEntry);
   const onSubmit = handleSubmit(name => {
     const data = {
       id: uuidv1(),
       ...name,
     };
-    entries.push(data);
-    localStorage.setItem('Entry', JSON.stringify(entries));
     addEntry(data);
     reset();
 
@@ -35,7 +36,7 @@ const Form: React.FC = () => {
         <p className="error">{errors ? errors?.name?.message : ''}</p>
       </div>
       <button type="submit">add name</button>
-      <button className="pick_random_name_button">pick random name</button>
+      <button onClick={() => randomEntry(payload)} className="pick_random_name_button">pick random name</button>
     </form>
   );
 };

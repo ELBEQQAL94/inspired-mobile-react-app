@@ -127,3 +127,19 @@ form button:hover {
     color: red;
     font-size: 15px
 }
+
+/* FOOTER */
+footer {
+    width: 100%;
+    padding: 4vmin;
+    height: 100px;
+    color: #ffffff;
+    margin: 0
+}
+
+footer .info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4vmin
+}

@@ -16,7 +16,7 @@ const List: React.FC = () => {
         {entries.length === 0 ? (
           <p>Add Name To Your List</p>
         ) : (
-          entries.map(entry => <Name entry={entry} />)
+          entries.map(entry => <Name entry={entry} key={entry.id}/>)
         )}
       </div>
     </div>

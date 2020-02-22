@@ -44,12 +44,12 @@ For this test, we’d like you to develop a basic React app using TypeScript.
     * [x] Includes Some Form Of State Management
     * [ ] Compiled Code Should Run On Internet Explorer 11+
     * [x] Should Utilise Webpack
-* [ ] check for responsive design
+* [x] check for responsive design
 * [x] Check For Unused Dependencies
 * [x] Add semi colon
-* [ ] Check code again
-* [ ] Check console errors
-* [ ] Create Footer
+* [x] Check code again
+* [x] Check console errors
+* [x] Create Footer
 
 ### The Technologies I Used
 -------
@@ -75,4 +75,4 @@ For this test, we’d like you to develop a basic React app using TypeScript.
 ### Screen Shots
 ------
 
-![alt text](https://i.postimg.cc/dQmkd758/Screenshot-2020-02-09-React-App-1.png)
+![alt text](https://i.postimg.cc/qMVxHC4P/Screenshot-2020-02-22-Type-Script-React.png)

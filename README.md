@@ -3,6 +3,21 @@
 
 For this test, we’d like you to develop a basic React app using TypeScript.
 
+### Run App
+------
+
+* yarn start
+
+### Build App
+------
+
+* yarn build
+
+### Run Test
+------
+
+* yarn lint
+
 ### TODO List:
 ------
 

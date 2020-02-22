@@ -25,13 +25,13 @@ const Name: React.FC<Entry> = ({entry}) => {
         </svg>
     </div>
   );
-}
+};
 
 interface Entry {
  entry: {
   name: string;
   id: string;
  }
-}
+};
 
 export default Name;

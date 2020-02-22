@@ -10,9 +10,10 @@ const List: React.FC = () => {
   return (
     <div className="container">
       <div className="names">
-        {name != null ? (
-          <Name entry={name} />
-        ) : entries.length === 0 ? (
+        <h2>Random Name:</h2>
+        {name != null ? <Name entry={name} /> : ''}
+        <hr />
+        {entries.length === 0 ? (
           <p>Add Name To Your List</p>
         ) : (
           entries.map(entry => <Name entry={entry} />)

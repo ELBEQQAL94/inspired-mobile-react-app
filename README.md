@@ -35,18 +35,18 @@ For this test, we’d like you to develop a basic React app using TypeScript.
 * [x] Create List Of Names
 * [x] Allow User To Add Names From A List
 * [x] Allow User To Remove Names From A List
-* [ ] Add rect router for navigate between lists and pickRandom Lists.
+* [x] Add Line to handle random name
 * [x] Add Button To Randomly Pick A Name From A List 
-* [ ] The Same Name Should Not Be Picked Twice In A Row
+* [x] The Same Name Should Not Be Picked Twice In A Row
 * [x] The Name Picked Should Be Displayed In An Easy To Read Way For The User.
 * [x] It Should Also Fit The Following Criteria:
     * [x] Must Compile Without Errors
     * [x] Includes Some Form Of State Management
     * [ ] Compiled Code Should Run On Internet Explorer 11+
     * [x] Should Utilise Webpack
-* [ ] Test React Components
-* [ ] Check For Unused Dependencies
-* [ ] Add semi colon
+* [ ] check for responsive design
+* [x] Check For Unused Dependencies
+* [x] Add semi colon
 * [ ] Check code again
 * [ ] Check console errors
 * [ ] Create Footer
@@ -60,9 +60,6 @@ For this test, we’d like you to develop a basic React app using TypeScript.
 * Easy-peasy
 * eslint
 * jest
-
-### API's
--------
 
 ### Submition
 -------

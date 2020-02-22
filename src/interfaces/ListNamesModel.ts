@@ -7,4 +7,4 @@ export default interface ListNamesModel {
   addEntry:  Action<ListNamesModel, ListNamesEntry>,
   removeEntry: Action<ListNamesModel, string>,
   randomEntry: Action<ListNamesModel, number>
-}
+};

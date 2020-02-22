@@ -79,13 +79,8 @@ For this test, we’d like you to develop a basic React app using TypeScript.
 ### Submition
 -------
 
-* [ ] After completing, please send us a link to a public Git repository containing your app.
+* [x] After completing, please send us a link to a public Git repository containing your app.
     * inspiredmobile8_hqw@indeedemail.com
-
-### Deployment
-------
-
-* [ ] Add index to public folder for handle router by netlify
 
 ### Screen Shots
 ------
